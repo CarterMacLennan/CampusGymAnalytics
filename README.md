@@ -12,6 +12,12 @@ The outcome is predicted using multiple linear regression derived from a [source
 
 The application also allows the user to enter data into a survey and view the results. As well as view aggregated data concerning the crowdedness of that gym derived from the source on Kaggle.
 
+## Table of Contents
+
+  - [Technology Stack](#technology-stack)
+  - [Data](#data)
+  - [Report](#report)
+
 # Technology Stack
 
 ### Environment
