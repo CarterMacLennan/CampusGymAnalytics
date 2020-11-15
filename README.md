@@ -1,7 +1,52 @@
 # Campus Gym Analytics
 A web application used to predict how crowded a campus gym will be based on the date, time and temperature.
 
+## Data
 
+### Number of people for each month of a semester
+<div class="row">
+  <div class="column">
+    <img src="/client/images/AvgSemester.jpg" width="450" height="350"/>
+  </div>
+  <div class="column">
+    <img src="/client/images/MaxSemester.jpg" width="450" height="350"/>
+  </div>
+</div>  
+
+### Predicting Crowdedness based on Temperature using Linear Regression 
+
+<div class="row">  
+  <div class="column">
+    <img src="/client/images/RainPrediction.jpg" width="450" height="350"/>
+  </div>
+  <div class="column">
+    <img src="/client/images/Prediction.jpg" width="450" height="350"/>
+  </div>
+</div>  
+
+### Predicting Crowdedness using Multiple Linear Regression 
+The coefficient for each independant variable is used in predict.html to allow the user to view the expected number of people at the gym based off of the inputted variables.
+| Variable             | Coefficient |
+|----------------------|-------------|
+| Temperature          | 0\.79       |
+| Month                | \-0\.67     |
+| Day                  | 1\.53       |
+| Hour                 | \-0\.87     |
+| Is start of semester | 7\.3        |
+| Is during semester   | 13\.52      |
+| Is weekend           | \-5\.3      |
+
+### Survey Results 
+ 
+<div class="row"> 
+  <div class="column">
+    <img src="/client/images/TempSurvey.jpg" width="450" height="350"/>
+  </div>
+  <div class="column">
+    <img src="/client/images/TimeSurvey.jpg" width="450" height="350"/>
+  </div>
+</div>
+  
 ### Introduction and Background
 
 Out of curiosity, I wanted to be able to predict how the crowded a campus gym would be based on the date, time, and temperature. On the website Kaggle, there is an interesting dataset concerning [the crowdedness of a university gym](https://www.kaggle.com/nsrose7224/crowdedness-at-the-campus-gym). This dataset includes the number of individuals at a campus gym recorded every ten minutes for over a year, along with the associated time stamps. Additionally, the data source includes other aggregated data that proved to have a significant impact on the number of individuals at the gym. Using this dataset and data analytics with Python, I was able to gather meaningful information that may be used at our own university.
@@ -16,13 +61,16 @@ I also hypothesized that very cold weather would be an indication that there wou
 
 In order to determine the crowdedness of the gym throughout both semesters, the average number of people at the gym throughout each month were plotted as shown in Figure 1.1. This plot showcases that my hypothesis was correct that the number of people at the gym peak at the beginning of each semester and decays as the semester carries on. Please note that the month of August and September appear very similar because the fall semester starts very late in the month of august. To reinforce these results, the max number of people at the gym at the same time for every month was plotted as shown in Figure 1.2. As expected, the maximum number of people at the gym at the same time, peaks at the beginning of each semester, and decays as the semester carries on.
 
-#### Figure 1.1
+#### Figure 1.1 & 1.2
 
-<img src="/client/images/AvgSemester.jpg" width="500" height="350" />
-
-#### Figure 1.2
-
-<img src="/client/images/MaxSemester.jpg" width="500" height="350"/>
+<div class="row">
+  <div class="column">
+    <img src="/client/images/AvgSemester.jpg" width="450" height="350"/>
+  </div>
+  <div class="column">
+    <img src="/client/images/MaxSemester.jpg" width="450" height="350"/>
+  </div>
+</div> 
 
 In order to determine the relationship temperature has with the crowdedness of a campus gym, the sklearn library was used to perform a linear regression. By using linear regression, the sign and coefficient of temperature in relation to the number of people at the gym was determined to be a positive slope of 1.06. This slope proves that the number of individuals should peak on very hot days which is the exact opposite of my original hypothesis.
 
