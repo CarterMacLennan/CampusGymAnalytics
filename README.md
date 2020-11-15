@@ -1,4 +1,12 @@
 # CAMPUS GYM ANALYTICS 
+
+## Table of Contents
+  - [Introduction](#introduction)
+  - [Technology Stack](#technology-stack)
+  - [Data](#data)
+  - [Report](#report)
+
+## Introduction
 A web application developed with python and HTML that allows the user to view how crowded a campus gym will be based on the following variables:
 - Temperature
 - Month
@@ -12,11 +20,6 @@ The outcome is predicted using multiple linear regression derived from a [source
 
 The application also allows the user to enter data into a survey and view the results. As well as view aggregated data concerning the crowdedness of that gym derived from the source on Kaggle.
 
-## Table of Contents
-
-  - [Technology Stack](#technology-stack)
-  - [Data](#data)
-  - [Report](#report)
 
 # Technology Stack
 
