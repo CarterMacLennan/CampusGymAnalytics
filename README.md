@@ -6,10 +6,10 @@ A web application used to predict how crowded a campus gym will be based on the 
 ### Number of people for each month of a semester
 <div class="row">
   <div class="column">
-    <img src="/client/images/AvgSemester.jpg" width="450" height="350"/>
+    <img src="/client/images/AvgSemester.jpg" width="400" height="300"/>
   </div>
   <div class="column">
-    <img src="/client/images/MaxSemester.jpg" width="450" height="350"/>
+    <img src="/client/images/MaxSemester.jpg" width="400" height="300"/>
   </div>
 </div>  
 
@@ -17,10 +17,10 @@ A web application used to predict how crowded a campus gym will be based on the 
 
 <div class="row">  
   <div class="column">
-    <img src="/client/images/RainPrediction.jpg" width="450" height="350"/>
+    <img src="/client/images/RainPrediction.jpg" width="400" height="300"/>
   </div>
   <div class="column">
-    <img src="/client/images/Prediction.jpg" width="450" height="350"/>
+    <img src="/client/images/Prediction.jpg" width="400" height="300"/>
   </div>
 </div>  
 
@@ -40,10 +40,10 @@ The coefficient for each independant variable is used in predict.html to allow t
  
 <div class="row"> 
   <div class="column">
-    <img src="/client/images/TempSurvey.jpg" width="450" height="350"/>
+    <img src="/client/images/TempSurvey.jpg" width="400" height="300"/>
   </div>
   <div class="column">
-    <img src="/client/images/TimeSurvey.jpg" width="450" height="350"/>
+    <img src="/client/images/TimeSurvey.jpg" width="400" height="300"/>
   </div>
 </div>
   
@@ -65,10 +65,10 @@ In order to determine the crowdedness of the gym throughout both semesters, the 
 
 <div class="row">
   <div class="column">
-    <img src="/client/images/AvgSemester.jpg" width="450" height="350"/>
+    <img src="/client/images/AvgSemester.jpg" width="400" height="300"/>
   </div>
   <div class="column">
-    <img src="/client/images/MaxSemester.jpg" width="450" height="350"/>
+    <img src="/client/images/MaxSemester.jpg" width="400" height="300"/>
   </div>
 </div> 
 
