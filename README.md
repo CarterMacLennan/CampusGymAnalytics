@@ -1,9 +1,7 @@
 # Campus Gym Analytics
 A web application used to predict how crowded a campus gym will be based on the date, time and temperature.
 
-## Data
-
-### Number of people for each month of a semester
+## Number of people for each month of a semester
 <div class="row">
   <div class="column">
     <img src="/client/images/AvgSemester.jpg" width="400" height="300"/>
@@ -13,7 +11,7 @@ A web application used to predict how crowded a campus gym will be based on the 
   </div>
 </div>  
 
-### Predicting Crowdedness based on Temperature using Linear Regression 
+## Predicting Crowdedness based on Temperature using Linear Regression 
 
 <div class="row">  
   <div class="column">
@@ -24,7 +22,7 @@ A web application used to predict how crowded a campus gym will be based on the 
   </div>
 </div>  
 
-### Predicting Crowdedness using Multiple Linear Regression 
+## Predicting Crowdedness using Multiple Linear Regression 
 The coefficient for each independant variable is used in predict.html to allow the user to view the expected number of people at the gym based off of the inputted variables.
 | Variable             | Coefficient |
 |----------------------|-------------|
@@ -36,7 +34,12 @@ The coefficient for each independant variable is used in predict.html to allow t
 | Is during semester   | 13\.52      |
 | Is weekend           | \-5\.3      |
 
-### Survey Results 
+<img src="/client/images/PredictionUI.png"  width="600" height="400"/>
+
+## Survey Results 
+A survey was added to the site, allowing the user to enter their preferred temperature and time for going to the gym. After submitting the form, they would be redirected to answer.html to view the results of the survey so far.
+
+<img src="/client/images/SurveyUI.png" width="750" height="300"/> 
  
 <div class="row"> 
   <div class="column">
@@ -45,8 +48,10 @@ The coefficient for each independant variable is used in predict.html to allow t
   <div class="column">
     <img src="/client/images/TimeSurvey.jpg" width="400" height="300"/>
   </div>
-</div>
-  
+</div> 
+ 
+# Report 
+ 
 ### Introduction and Background
 
 Out of curiosity, I wanted to be able to predict how the crowded a campus gym would be based on the date, time, and temperature. On the website Kaggle, there is an interesting dataset concerning [the crowdedness of a university gym](https://www.kaggle.com/nsrose7224/crowdedness-at-the-campus-gym). This dataset includes the number of individuals at a campus gym recorded every ten minutes for over a year, along with the associated time stamps. Additionally, the data source includes other aggregated data that proved to have a significant impact on the number of individuals at the gym. Using this dataset and data analytics with Python, I was able to gather meaningful information that may be used at our own university.
