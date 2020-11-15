@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Campus Gym</title>
+    </head>
+   
+    <body>
+        <h1 style="font-family:sans-serif;text-align:center"> Analyzing the Crowdedness of a Campus Gym</h1>
+        <h2 style="font-family:sans-serif;text-align:center"> PREDICT</h2>
+        <a href="home.html" > <p style="text-align:center">HOME</p></a>
+        <div style="text-align:center">
+            
+            <form oninput="output.value=parseInt(temp.value)*0.788+parseInt(month.value)*-0.674+parseInt(day.value)*-0.869
+                           +parseInt(hour.value)*1.53+parseInt(weekend.value)*-5.3+parseInt(holiday.value)*-13.63
+                           +parseInt(startSem.value)*7.299+parseInt(duringSem.value)*13.52">
+                <label for="temp"> Temp (Farenheit): &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="number" id="temp" name="temp" min="0" max="150"><br>
+                <label for="month"> Month (1-12):&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </label>  
+                <input type="number" id="month" name="month" min="1" max="12"><br>   
+                <label for="day"> Day (Mon=1,Su=7):&nbsp;&nbsp;&nbsp;</label>   
+                <input type="number" id="day" name="day" min="1" max="7"><br>
+                <label for="hour"> Hour (military time):&nbsp;&nbsp;</label>
+                <input type="number" id="hour" name="hour" min="0" max="23"><br><br>
+                <label for="weekend"> Is it the weekend? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="number" id="weekend" name="weekend" min=0 max=1><br>
+                <label for="holiday"> Is it a holiday? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </label>
+                <input type="number" id="holiday" name="holiday" min=0 max=1><br>
+                <label for="startSem"> Start of the semester? </label>
+                <input type="number" id="startSem" name="startSem" min=0 max=1><br>
+                <label for="duringSem"> During the semester?&nbsp;</label>
+                <input type="number" id="duringSem" name="duringSem" min=0 max=1><br>
+                <br>
+                =<output name="output"></output>
+            </form>
+        </div>        
+    </body> 
+</html>    
