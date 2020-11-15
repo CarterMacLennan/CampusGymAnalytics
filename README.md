@@ -1,5 +1,33 @@
-# Campus Gym Analytics
-A web application used to predict how crowded a campus gym will be based on the date, time and temperature.
+# CAMPUS GYM ANALYTICS 
+A web application developed with python and HTML that allows the user to view how crowded a campus gym will be based on the following variables:
+- Temperature
+- Month
+- Day
+- Hour
+- Is start of semester 
+- Is during semester   
+- Is weekend
+
+The outcome is predicted using multiple linear regression derived from a [source on Kaggle](https://www.kaggle.com/nsrose7224/crowdedness-at-the-campus-gym).
+
+The application also allows the user to enter data into a survey and view the results. As well as view aggregated data concerning the crowdedness of that gym derived from the source on Kaggle.
+
+# Technology Stack
+
+### Environment
+* Juniper
+
+### Modules
+* os 
+* tornado
+* pickle
+* pandas
+* numpy
+* matplotlib
+* seaborn
+* sklearn
+
+# Data
 
 ## Number of people for each month of a semester
 <div class="row">
