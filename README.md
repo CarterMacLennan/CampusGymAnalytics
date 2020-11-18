@@ -50,14 +50,9 @@ The application also allows the user to enter data into a survey and view the re
 
 ## Predicting Crowdedness based on Temperature using Linear Regression 
 
-<div class="row">  
   <div class="column">
     <img src="/client/images/RainPrediction.jpg" width="400" height="300"/>
   </div>
-  <div class="column">
-    <img src="/client/images/Prediction.jpg" width="400" height="300"/>
-  </div>
-</div>  
 
 ## Predicting Crowdedness using Multiple Linear Regression 
 The coefficient for each independant variable is used in predict.html to allow the user to view the expected number of people at the gym based off of the inputted variables.
@@ -71,7 +66,9 @@ The coefficient for each independant variable is used in predict.html to allow t
 | Is during semester   | 13\.52      |
 | Is weekend           | \-5\.3      |
 
-<img src="/client/images/PredictionUI.png"  width="600" height="400"/>
+<img src="/client/images/PredictionUI.png" width="900" height="400"/>
+
+<img src="/client/images/Prediction.jpg" width="400" height="300"/>
 
 ## Survey Results 
 A survey was added to the site, allowing the user to enter their preferred temperature and time for going to the gym. After submitting the form, they would be redirected to answer.html to view the results of the survey so far.
